@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: #000000;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff5722;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #5a5a5a, #3187ff);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #ff5722;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
+
+/* About Section */
+#about {
+    background: #f4f4f4;
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Schedule Section */
+#schedule ul {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#schedule li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-bottom: 1px dashed #ddd;
+}
+
+#schedule li:last-child {
+    border-bottom: none;
+}
+
+/* Speakers Section */
+#speakers {
+    text-align: center;
+}
+
+.speaker {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.speaker:hover {
+    transform: scale(1.05);
+}
+
+.speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.speaker h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.speaker p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Sponsors Section */
+#sponsors {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 40px;
+    border: 2px solid #ddd;
+}
+
+#sponsors img {
+    max-width: 200px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+#sponsors img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact button {
+    background: #0057e7;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact button:hover {
+    background: #004bb5;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
